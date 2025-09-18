@@ -9,7 +9,7 @@ const SearchBar = ({ searched, setSearched, onSearch, onReset }) => {
         value={searched}
         onChange={(e) => setSearched(e.target.value)}
         onKeyDown={(e) => e.key === "Enter" && onSearch()}
-        className="rounded-md w-1/4 px-3 py-1.5 border border-black ml-2"
+        className="rounded-md w-full md:w-1/2 lg:w-1/3 xl:w-1/4 px-3 py-1.5 border border-black ml-2"
       />
 
       <button className="cursor-pointer" onClick={onSearch}>

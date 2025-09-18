@@ -7,13 +7,13 @@ const Navbar = () => {
       <nav className='px-4 py-3 flex justify-between items-center'>
         <a href='/' className='text-xl font-bold'>E-SHOP</a>
         <ul className="flex items-center gap-7">
-          <li className="cursor-pointer hover:scale-105">New & Featured</li>
-          <li className="cursor-pointer hover:scale-105">Categories</li>
-          <li className="cursor-pointer hover:scale-105">About</li>
-          <li className="cursor-pointer hover:scale-105">Contact Us</li>
+          <li className="nav-item">New & Featured</li>
+          <li className="nav-item">Categories</li>
+          <li className="nav-item">About</li>
+          <li className="nav-item">Contact Us</li>
           <div className="bg-black h-8 w-[1.5px]"></div>
-          <BsCart3 className="size-6 cursor-pointer hover:scale-110" />
-          <CgProfile className="size-6 cursor-pointer hover:scale-110" />
+          <BsCart3 className="size-7 nav-item" />
+          <CgProfile className="size-7 nav-item" />
         </ul>
       </nav>
     </div>

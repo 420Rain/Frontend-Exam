@@ -26,9 +26,9 @@ const App = () => {
           onReset={() => searchProduct(allProducts, setProducts, "")}
         />
 
-        <div className='grid grid-cols-4 gap-x-8 gap-y-10 mt-7'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-8 gap-y-10 mt-7'>
           {products.length === 0 ? (
-            <div className='col-span-4 flex justify-center mt-10'>
+            <div className='col-span-full flex justify-center mt-10'>
               <p className='font-lato text-5xl text-[#a2a4aa]'>No Products Available</p>
             </div>
           ) : (
