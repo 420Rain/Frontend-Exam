@@ -8,6 +8,7 @@ const SearchBar = ({ searched, setSearched, onSearch, onReset }) => {
         placeholder="Search for Products"
         value={searched}
         onChange={(e) => setSearched(e.target.value)}
+        onKeyDown={(e) => e.key === "Enter" && onSearch()}
         className="rounded-md w-1/4 px-3 py-1.5 border border-black ml-2"
       />
 
