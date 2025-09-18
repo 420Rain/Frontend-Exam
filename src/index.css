@@ -13,5 +13,5 @@
 }
 
 .nav-item {
-  @apply cursor-pointer hover:scale-105 duration-200;
+  @apply cursor-pointer hover:scale-105 duration-200 text-center;
 }
