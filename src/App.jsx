@@ -21,7 +21,7 @@ const App = () => {
     <div>
       <Navbar />
 
-      <div className='mx-20 my-8 bg-[#fdfbf7]'>
+      <div className='mx-15 sm:mx-20 my-8'>
         <p className='font-semibold font-lato text-4xl ml-2 mb-3'>Products for Sale</p>
         <SearchBar
           searched={searchedProduct}
