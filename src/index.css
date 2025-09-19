@@ -15,3 +15,7 @@
 .nav-item {
   @apply cursor-pointer hover:scale-105 duration-200 text-center;
 }
+
+.display-msg {
+  @apply col-span-full flex flex-col items-center justify-center gap-5 mt-15 font-lato
+}
